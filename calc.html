@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>
+            My Calculator
+        </title>
+        <link rel = "stylesheet" href = "./calc.css">
+
+    </header>
+    <body>
+        <div class="container">
+            <div class="inputbox">
+                <input type="text" placeholder = "0" readonly = "readonly" value = 0 class="input-value">
+            </div>
+            <section class="buttons">
+                <section class="button-row row1">
+                    <button class="operation clear-button grey-button no-left">C</button>
+                    <button class="operation backspace hundred grey-button">←</button>
+                    <button class="operation division orange-button hundred">÷</button>
+                </section>
+                <section class="button-row row2">
+                    <button class="number seven hundred grey-button no-left">7</button>
+                    <button class="number eight grey-button hundred">8</button>
+                    <button class="number nine grey-button hundred">9</button>
+                    <button class="operation multiplication hundred orange-button">×</button>
+                </section>
+                <section class="button-row row3">
+                     <button class="number four grey-button hundred no-left">4</button>
+                     <button class="number five grey-button hundred">5</button>
+                     <button class="number six grey-button hundred">6</button>
+                     <button class="operation minus hundred orange-button">-</button>
+                </section>
+                <section class="button-row row4">
+                    <button class="number one grey-button hundred no-left">1</button>
+                    <button class="number two grey-button hundred">2</button>
+                    <button class="number three grey-button hundred">3</button>
+                    <button class="operation plus orange-button hundred">+</button>
+
+                </section>
+                <section class="button-row row5">
+                    <button class="number zero grey-button no-left">0</button>
+                    <button class="operation equals hundred orange-button">=</button>
+                </section>
+            </section>
+        </div>
+        <script src = "./calc.js"></script>
+    </body>
+</html>

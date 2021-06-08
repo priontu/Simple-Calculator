@@ -1,0 +1,74 @@
+  *{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.container{
+    display: block;
+}
+.input-value{
+    width: 400px;
+    height: 80px;
+    text-align: right;
+    background-color: black;
+    color: white;
+    font-size: 250%;
+    border: none;
+    padding: 1%;
+}
+button{
+    height: 100px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-color: black;
+    font-size: 250%;
+}
+button:focus{
+    outline: none;
+}
+.input-value:focus{
+    outline: none;
+}
+.clear-button{
+    width: 200px;
+}
+.hundred{
+    width: 100px;
+}
+.zero{
+    width: 300px;
+}
+.button-row{
+    display: flex;
+    justify-content: center;
+}
+.orange-button{
+    background-color: sandybrown;
+    color: white;
+}
+.grey-button{
+    background-color: lightgray;
+}
+.no-left{
+    border-left: 0px;
+}
+.grey-button:hover{
+    background-color: rgb(230, 230, 230);
+    cursor: pointer;
+}
+.orange-button:hover{
+    background-color: rgb(235, 182, 135);
+    cursor: pointer;
+}
+.grey-button:active{
+    background-color: rgb(175, 175, 175);
+}
+.orange-button:active{
+    background-color: rgb(247, 148, 62);
+
+}
+.input-value:hover{
+    cursor: pointer;
+}
